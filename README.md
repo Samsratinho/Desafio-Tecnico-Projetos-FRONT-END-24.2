@@ -10,17 +10,18 @@
     <br />
     ![cabeçalho EJECT](https://imgur.com/a/N246Mrq)
     ![logo EJECT](https://imgur.com/a/07luj51)
-    <p align="center">
   </h1>
 </div>
 
-<p align="center"> ![HTML5]https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 
-![CSS3]https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+<div align="left">
+  
+  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+  ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+  ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
+  
+</div>
 
-![JavaScript]https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
-
-![Python]https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue
-
-![Django]https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green
 </p>
