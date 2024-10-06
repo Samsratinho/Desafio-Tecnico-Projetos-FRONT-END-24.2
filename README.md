@@ -2,10 +2,12 @@
 
 ![Status](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-<div align="center">
-  <img src="https://i.imgur.com/N246Mrq.png" alt="Logo do Projeto" width="200px" />
-  <img src="https://i.imgur.com/07luj51.png" alt="Logo do Projeto" width="200px" />
-</div>
+
+  ![cabecalho EJECT](https://pasteboard.co/u5sFlPTbpwgV.jpg)
+  <br>
+  
+  ![Logo EJECT](https://pasteboard.co/XuUbY7lo7rlc.png)
+
 
 ## Tecnologias Utilizadas
 
