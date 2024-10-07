@@ -13,7 +13,7 @@ body {
 .decoracao {
     display: flex;
     height: 405px;
-    width: 65%;
+    width: 78rem;
     position: relative;
     margin-top: 74px;
     justify-content: center;
@@ -60,30 +60,3 @@ body {
     font-weight: 400;
 }
 
-.cartoes-parent {
-    margin-top: 100px;
-    width: 65%;
-    height: 375px;
-}
-
-.cartoes-parent h2 {
-    font-weight: 600;
-    font-size: 36px;
-    text-align: left;
-    font-family: 'DM Sans', sans-serif;
-}
-
-.cartoes {
-    margin-top: 42px;
-    display: flex;
-    justify-content: center;
-    gap: 70px;
-}
-
-.cartoes h3 {
-    font-weight: 700;
-    font-size: 24px;
-    text-align: left;
-    font-family: 'DM Sans', sans-serif;
-    margin-left: 14px;
-}
