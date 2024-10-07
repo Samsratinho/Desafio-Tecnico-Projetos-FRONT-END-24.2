@@ -1,0 +1,35 @@
+#cross1 {
+    position: absolute;
+    top: 0px;
+    left: -175px;
+}
+
+#cross2 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+
+#circle1 {
+    top: 400px;
+    left: -150px;
+    position: absolute;
+}
+
+#circle2 {
+    position: absolute;
+    top: 40px;
+    right: -25px;
+}
+
+#star1 {
+    position: absolute;
+    top: 180px;
+    left: -10px;
+}
+
+#star2 {
+    position: absolute;
+    top: 260px;
+    right: -190px;
+}
