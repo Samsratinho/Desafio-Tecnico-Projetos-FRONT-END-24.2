@@ -8,7 +8,7 @@
 }
 
 .logo {
-    margin-left: 140px;
+    margin-left: 170px;
 }
 
 .box {
@@ -24,8 +24,8 @@
     margin-bottom: 100px;
 }
 
-.nav-box {
-    margin-right: 140px;
+.nav-parent {
+    margin-right: 170px;
     width: 449px;
     display: flex;
     flex-direction: column;
