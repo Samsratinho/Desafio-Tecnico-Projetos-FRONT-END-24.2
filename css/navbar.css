@@ -48,6 +48,10 @@
     font-weight: 500;
 }
 
+.nav-links a:hover {
+    font-weight: bold;
+}
+
 .selector {
     position: absolute;
     z-index: 999;
