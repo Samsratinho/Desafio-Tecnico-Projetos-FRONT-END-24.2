@@ -62,11 +62,12 @@ body {
 
 .footer {
     position: relative;
-    height: 50rem;
+    height: 80vh;
     width: 100%;
     margin-top: 200px;
     background-image: url('../img/footer.svg');
     background-position: center;
+    background-position-y: 0vh;
     background-size: cover;
     overflow: hidden;
 }
