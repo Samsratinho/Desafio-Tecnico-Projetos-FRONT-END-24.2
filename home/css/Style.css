@@ -73,10 +73,25 @@ body {
     font-weight: 400;
 }
 
-.ferramentas h1 {
-    
-    font-weight: 400;
-    font-size: 36px;
+.ferramentas {
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
     text-align: left;
-    font-family: 'DM Sans', sans-serif;
+    margin-left: -700px;
+    position: relative;
+    top: -125px; 
+}
+
+#nossa-equipe{
+    font-size: 48px;
+    text-align: center;
+    margin-top: 7%;
+    
+}
+#text-padrão{
+    color:#FFFDF2; 
+    font-style: italic;
 }

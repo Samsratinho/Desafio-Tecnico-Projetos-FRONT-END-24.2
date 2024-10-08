@@ -1,13 +1,24 @@
-button{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 172px;
-    height: 52px ;
-    top: 676.19px;
-    left: 634.69px;
-    border-radius: 50px;
-    background: #704EEA;
-    font-family: 'DM Sans', sans-serif;
 
+.botao-roxo {
+    width: 172px;
+    height: 52px;
+    background-color: #704EEA;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.botao-roxo:hover {
+    background-color: #593BBF; /* Efeito hover */
 }

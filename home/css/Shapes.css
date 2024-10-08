@@ -33,3 +33,57 @@
     top: 260px;
     right: -190px;
 }
+
+.cartoes{
+    display: flex;
+    justify-content: center; 
+    align-items: center;            
+    width: 100%;                    
+    padding: 20px;                  
+}
+
+.retangulo-img{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;            
+    width: 100%;                    
+    padding: 20px;                  
+}
+
+.retangle {
+    width: 360px;
+    height: 400px;
+    border-radius: 35px;
+    background: #704EEA;
+    margin: 0 10px;
+    font-family: 'DM Sans', sans-serif;
+    color: #FFFDF2;
+    display: flex;               
+    justify-content: center;    
+    align-items:end;         
+    text-align: left;          
+    padding: 80px;     
+    padding-right: 70%;
+    white-space: nowrap;
+}
+
+#retangle-text{
+    width: 10;
+}
+
+.retangle h3{
+    width: 39px;
+    height: 32px;
+    margin-top: -120px; 
+    line-height: 1.5;
+}
+
+.full-screen-rectangle {            
+    top: 400px;                    
+    left: 0.25px;                    
+    width: 100vw;              
+    height:730px;             
+    background-color: #704EEA;  
+    z-index: -1;                
+}
+

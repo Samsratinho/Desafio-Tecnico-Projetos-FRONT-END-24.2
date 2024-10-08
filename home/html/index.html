@@ -9,10 +9,21 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/shapes.css">
     <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="js/script.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=DM+Serif+Display&family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Importar o css do Flickity -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.min.css">
+    <!-- Importar o JS do Flickity  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.pkgd.min.js"></script>
+
+
+
+    <!-- colocar separado os svgs / ajustar as divs dos svgs / adicionar cruz numero 2 / ajeitar fonts-->
+    <!-- carrocel / forum / plataforma de videos / materiais pais e profs / jogos educacionais-->
 
 </head>
 <body>
@@ -90,18 +101,80 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at mauris quis magna aliquet condimentum. Cras et turpis id eros tincidunt faucibus. Nullam aliquam malesuada neque, ac hendrerit lacus tincidunt eu.
                 </p>
             </div>
+            <br>
+            <button class="botao-roxo">Saber mais</button>
         </div>
     </div>
-    <button>Saber mais</button>
-    <div class="ferramentas">
-        <h1>Nossas ferramentas <br>
-            <span id="destaque1">interativas</span>
-        </h1>
+    <!--Div dos cartões 1-->
+        <div class="cartoes-parent"></div>
+            <div class="ferramentas">
+                <h1>Nossas ferramentas <br>
+                    <span id="destaque1">interativas</span>
+                </h1>
+            </div>
+            <!--Cartões em sí-->
+            <div class="cartoes">
+                <div>
+                    <div class="retangle"><h3>??? <br><span style="font-size: 16px; color: black;">Lorem ipsum dolor sit amet</span></h3></div>
+                    <br>
+                </div>
+                <div>
+                    <div class="retangle"><h3>Atividades <span class="" style="color:#FFC62F; font-family: 'DM Sans', sans-serif; font-style: italic; font-size: 24px;">criativas</span><br><span style="font-size: 16px; color: black;">Lorem ipsum dolor sit amet</span></h3></div>
+                    <br>
+                </div>
+                <div>
+                    <div class="retangle"><h3>Jogos <span class="" style="color:#FFC62F; font-family: 'DM Sans', sans-serif; font-style: italic; font-size: 24px;">educacionais</span><br><span style="font-size: 16px; color: black;">Lorem ipsum dolor sit amet</span></h3></div>
+                   
+                </div>
+            </div> 
+        </div>  
+        <br><br><br><br>
+    </div> 
+    <div class="full-screen-rectangle">
+
+        <div id="nossa-equipe"> 
+            <span style="color:#FFFDF2; font-style: italic; font-size: 48px;">Nossa equipe</span> 
+            <span style="color:#FFFDF2; font-family: 'DM Sans', sans-serif; font-size: 48px;" >conta com os</span> 
+            <span style="color:#FFC62F; font-style: italic; font-size: 48px;">melhores e mais <br> preparados</span>
+            <span style="color:#FFFDF2; font-family: 'DM Sans', sans-serif; font-size: 48px;" >profissionais para criar o <br> melhor conteúdo para </span>
+            <span style="color:#FFC62F;font-style: italic; font-size: 48px;">sua criança</span>
+            <br><br>
+        </div>
+
+        <div class="carousel" data-flickity='{ "groupCells": true }'>
+            <div class="carousel-cell"></div>
+            <div class="carousel-cell"></div>
+            <div class="carousel-cell"></div>
+            <div class="carousel-cell"></div>
+            
+          </div>
+
+    </div>
+    <br><br><br>
+    <div class="forum">
+        <div class="text-forum">
+            <h1>Leia artigos e interaja no <br> nosso
+                <span id="destaque1">fórum</span>
+            </h1>
+        </div>
+        <!--Retangulos de video-->
+        <div class="retangulo-img">
+            <div>
+                <div class="retangle"></div>
+                <h3><span id="retangle-text" style="font-size: 16px; color: black;">Lorem ipsum dolor sit amet, <br> consectetur</span></h3>
+            </div>
+            <div>
+                <div class="retangle"></div>
+                <h3><span id="retangle-text" style="font-size: 16px; color: black;">Lorem ipsum dolor sit amet, <br> consectetur</span></h3>
+            </div>
+            <div>
+                <div class="retangle"></div>
+                <h3><span id="retangle-text" style="font-size: 16px; color: black;">Lorem ipsum dolor sit amet, <br> consectetur</span></h3>
+            </div>
+        </div> 
     </div>
 
 
-
-
-
+    <link rel="stylesheet" href="js/script.js">
 </body>
 </html>
