@@ -27,3 +27,10 @@
     top: 210px;
     right: 0px;
 }
+
+.retangle {
+    width: 360px;
+    height: 220px;
+    border-radius: 35px;
+    background-color: #FDEBD3;
+}

@@ -4,11 +4,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: fixed;
+    z-index: 999;
 }
 
 .logo {
-    margin-left: 140px;
+    margin-left: 170px;
 }
 
 .box {
@@ -24,8 +25,8 @@
     margin-bottom: 100px;
 }
 
-.nav-box {
-    margin-right: 140px;
+.nav-parent {
+    margin-right: 170px;
     width: 449px;
     display: flex;
     flex-direction: column;
@@ -50,6 +51,6 @@
 .selector {
     position: absolute;
     z-index: 999;
-    margin-left: 25px;
-    margin-top: 44px;
+    top: 43px;
+    left: 40px;
 }

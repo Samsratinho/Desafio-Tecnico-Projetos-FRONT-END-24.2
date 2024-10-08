@@ -12,14 +12,14 @@ body {
 
 .decoracao {
     display: flex;
-    height: 704px;
-    width: 65%;
+    height: 405px;
+    width: 78rem;
     position: relative;
-    margin-top: 74px;
+    margin-top: 20vh;
     justify-content: center;
 }
 
-.introducao {
+.titulo {
     position: absolute;
     height: 132px;
     width: 940px;
@@ -29,7 +29,7 @@ body {
     align-items: center;
 }
 
-.introducao h1 {
+.titulo h1 {
     font-weight: 600;
     font-size: 48px;
     text-align: center;
@@ -52,7 +52,7 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
-#destaque1 {
+.destaque {
     font-size: 48px;
     font-family: 'DM Serif Display', sans-serif;
     font-style: italic;
@@ -60,10 +60,3 @@ body {
     font-weight: 400;
 }
 
-#destaque2 {
-    font-size: 48px;
-    font-family: 'DM Serif Display', sans-serif;
-    font-style: italic;
-    color: #704EEA;
-    font-weight: 400;
-}
