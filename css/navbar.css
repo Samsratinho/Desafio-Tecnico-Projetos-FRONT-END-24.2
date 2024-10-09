@@ -56,5 +56,9 @@
     position: absolute;
     z-index: 999;
     top: 43px;
-    left: 40px;
+    left: 0px;
+}
+
+.active li {
+    font-weight: bold;
 }
