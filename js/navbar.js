@@ -18,18 +18,25 @@ window.addEventListener('DOMContentLoaded', (event) => {
     
     // Seleciona o seletor
     const selector = document.querySelector('.nav-parent .selector');
-    
-    if (currentPage === 'home.html') {
-        selector.style.left = 40 + 'px';
-    }
-    else if (currentPage === 'videos.html') {
-        selector.style.left = 120 + 'px';
-    }
-    else if (currentPage === 'forum.html') {
-        selector.style.left = 205 + 'px';
-    }
-    else if (currentPage === 'pais_e_profs.html') {
-        selector.style.left = 310 + 'px';
+
+    // Define a posição do seletor com base na página ativa
+    switch(currentPage) {
+        case 'home.html':
+            selector.style.left = 40 + 'px';
+            break;
+        case 'videos.html':
+            selector.style.left = 120 + 'px';
+            break;
+        case 'forum.html':
+            selector.style.left = 205 + 'px';
+            break;
+        case 'pais_e_profs.html':
+            selector.style.left = 310 + 'px';
+            break;
+        default:
+            selector.style.left = 40 + 'px';
+            selector.style.display = 'none';
+            break;
     }
 
 
