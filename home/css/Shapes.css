@@ -1,0 +1,42 @@
+#cross1 {
+    position: absolute;
+    top: -50px;
+    left: 13px;
+}
+
+#cross2 {
+    top: 350px;
+    right: 165px;
+    position: absolute;
+}
+
+#circle1 {
+    top: 284px;
+    left: 0px;
+    position: absolute;
+}
+
+#circle2 {
+    position: absolute;
+    top: 20px;
+    right: 165px;
+}
+
+#star1 {
+    position: absolute;
+    top: 74px;
+    left: 106px;
+}
+
+#star2 {
+    position: absolute;
+    top: 160px;
+    right: 0px;
+}
+
+.vector1 {
+    position: absolute;
+    right: 10px;
+}
+
+

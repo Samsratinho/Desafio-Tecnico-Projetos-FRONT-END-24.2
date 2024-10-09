@@ -24,8 +24,8 @@
     margin-bottom: 100px;
 }
 
-.nav-box {
-    margin-right: 140px;
+.nav-parent {
+    margin-right: 170px;
     width: 449px;
     display: flex;
     flex-direction: column;
@@ -47,9 +47,18 @@
     font-weight: 500;
 }
 
+.nav-links a:hover {
+    font-weight: bold;
+}
+
+
 .selector {
     position: absolute;
     z-index: 999;
-    margin-left: 25px;
-    margin-top: 44px;
+    top: 43px;
+    left: 26px;
+}
+
+.active li {
+    font-weight: bold;
 }

@@ -12,10 +12,10 @@ body {
 
 .decoracao {
     display: flex;
-    height: 704px;
-    width: 65%;
+    height: 405px;
+    width: 78rem;
     position: relative;
-    margin-top: 74px;
+    margin-top: 20vh;
     justify-content: center;
 }
 
@@ -23,7 +23,7 @@ body {
     position: absolute;
     height: 132px;
     width: 940px;
-    top: 30px;
+    top: -20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,18 +71,6 @@ body {
     font-style: italic;
     color: #F19436;
     font-weight: 400;
-}
-
-.ferramentas {
-    width: 400px;
-    height: 150px;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    text-align: left;
-    margin-left: -700px;
-    position: relative;
-    top: -125px; 
 }
 
 #nossa-equipe{
