@@ -18,18 +18,19 @@ window.addEventListener('DOMContentLoaded', (event) => {
     
     // Seleciona o seletor
     const selector = document.querySelector('.nav-parent .selector');
-    // Seleciona o link ativo
-    const activeLink = document.querySelector('.nav-parent a.active');
-
-    // Essas constantes armazenam a posição do link, do seletor e da div pai
-    const linkRect = activeLink.getBoundingClientRect();
-    const selectorRect = selector.getBoundingClientRect();
-    const divRect = document.querySelector('.nav-parent').getBoundingClientRect();
-
-    // Calcula a posição x para o seletor
-    const xPos = Math.floor(linkRect.left - divRect.left - (selectorRect.width / 2) + (linkRect.width / 2));
-    // Muda a posição do seletor
-    selector.style.left = xPos + 'px';
+    
+    if (currentPage === 'home.html') {
+        selector.style.left = 40 + 'px';
+    }
+    else if (currentPage === 'videos.html') {
+        selector.style.left = 120 + 'px';
+    }
+    else if (currentPage === 'forum.html') {
+        selector.style.left = 205 + 'px';
+    }
+    else if (currentPage === 'pais_e_profs.html') {
+        selector.style.left = 310 + 'px';
+    }
 
 
     console.log("Active page: " + currentPage);
