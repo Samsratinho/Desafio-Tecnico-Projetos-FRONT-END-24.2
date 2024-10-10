@@ -18,27 +18,57 @@ window.addEventListener('DOMContentLoaded', (event) => {
     
     // Seleciona o seletor
     const selector = document.querySelector('.nav-parent .selector');
+    // Recupera a posição do seletor da página anterior
+    const previousPos = localStorage.getItem('previousPos') || '0px';
 
     // Define a posição do seletor com base na página ativa
     switch(currentPage) {
+        
         case 'home.html':
-            selector.style.left = 40 + 'px';
+            selector.animate([
+                { left: `${previousPos}` },
+                { left: '40px' }
+            ], { duration: 200 });
+
+            selector.style.left = '40px';
             break;
+
         case 'videos.html':
-            selector.style.left = 120 + 'px';
+            selector.animate([
+                { left: `${previousPos}` },
+                { left: '120px' }
+            ], { duration: 200 });
+
+            selector.style.left = '120px';
             break;
+
         case 'forum.html':
-            selector.style.left = 205 + 'px';
+            selector.animate([
+                { left: `${previousPos}` },
+                { left: '205px' }
+            ], { duration: 200 });
+
+            selector.style.left = '205px';
             break;
+
         case 'pais_e_profs.html':
-            selector.style.left = 310 + 'px';
+            selector.animate([
+                { left: `${previousPos}` },
+                { left: '310px' }
+            ], { duration: 200 });
+
+            selector.style.left = '310px';
             break;
+
         default:
-            selector.style.left = 40 + 'px';
+            selector.style.left = '0px';
             selector.style.display = 'none';
             break;
     }
 
+    /* Salva a posição do seletor no cache para ser
+     * recuperada na página seguinte */
+    localStorage.setItem('previousPos', selector.style.left);
 
     console.log("Active page: " + currentPage);
 });
