@@ -10,6 +10,9 @@ body { font-family: sans-serif; }
 }
 
 .carousel-cell {
+  position: absolute;
+  top: 0px;
+  left: 0px;
   width: 200px;   
   height: 200px;
   margin-right: 20px;

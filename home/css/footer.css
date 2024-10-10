@@ -1,0 +1,20 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .div-esquerda, .div-centro, .div-direita {
+    float: left;
+    width: 30%;
+    background-color: #FFD25B;
+    padding: 20px;
+    margin-right: 2%;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .div-direita {
+    margin-right: 0; /* Remove a margem da última div */
+  }
+  

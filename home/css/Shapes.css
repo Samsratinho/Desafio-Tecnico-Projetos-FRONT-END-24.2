@@ -34,6 +34,18 @@
     right: 0px;
 }
 
+#star3 {
+    position: absolute;
+    top: -680px;
+    left: 0px;
+}
+
+#star4 {
+    position: absolute;
+    top: -500px;
+    left: 1301.26px;
+}
+
 .vector1 {
     position: absolute;
     right: 10px;

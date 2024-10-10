@@ -52,11 +52,52 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
+#pzinho{
+    margin-top: 35px;
+    font-weight: 500;
+}
+
 #destaque1 {
     font-size: 48px;
     font-family: 'DM Serif Display', sans-serif;
     font-style: italic;
     color: #704EEA;
+    font-weight: 400;
+}
+
+#destaque-forum {
+    font-size: 36px;
+    font-family: 'DM Serif Display', sans-serif;
+    font-style: italic;
+    color: #704EEA;
+    font-weight: 400;
+}
+
+.text-retangle{
+    position: absolute;
+    size: 36px;
+    width: 906px;
+    height: 157px;
+    margin-top: -220px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: center;
+    
+}
+
+#destaque-videos {
+    font-size: 36px;
+    font-family: 'DM Serif Display', sans-serif;
+    font-style: italic;
+    color: #704EEA;
+    font-weight: 400;
+}
+
+#destaque-jogos {
+    font-size: 36px;
+    font-family: 'DM Serif Display', sans-serif;
+    font-style: italic;
+    color: #FFFDF2;
     font-weight: 400;
 }
 
@@ -75,10 +116,25 @@ body {
 
 #nossa-equipe{
     font-size: 48px;
+    line-height: 69px;
+    font-weight: 500;
+    color: #FFFDF2;
     text-align: center;
     margin-top: 7%;
-    
 }
+
+#mark1{
+    font-style: italic;
+    font-weight: 400;
+    font-family: 'DM Serif Display', sans-serif;
+}
+
+#mark2{
+    font-family: 'DM Serif Display', sans-serif;
+    color: #FFC62F;
+    font-style: italic;
+}
+
 #text-padrão{
     color:#FFFDF2; 
     font-style: italic;

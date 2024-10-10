@@ -23,8 +23,8 @@
 
 
 
-    <!-- colocar separado os svgs / ajustar as divs dos svgs / adicionar cruz numero 2 / ajeitar fonts-->
-    <!-- carrocel / forum / plataforma de videos / materiais pais e profs / jogos educacionais-->
+    <!--ajeitar fonts-->
+    <!-- carrocel / plataforma de videos / materiais pais e profs / jogos educacionais-->
     <!-- colocar todos os svgs -->
 </head>
 <body>
@@ -124,14 +124,22 @@
         </div>  
         <br><br><br><br>
     </div> 
-    <div class="full-screen-rectangle">
 
+    <div class="full-screen-rectangle">
+        <!-- <div class="introducao">
+            <div>
+                <h1>O melhor lugar para <br>crianças
+                    <span id="destaque1">aprenderem</span> 
+                    <span id="Ezão">&</span><br>
+                    <span id="destaque2">brincarem</span> 
+                </h1>
+            </div> -->
         <div id="nossa-equipe"> 
-            <span style="color:#FFFDF2; font-style: italic; font-size: 48px;">Nossa equipe</span> 
-            <span style="color:#FFFDF2; font-family: 'DM Sans', sans-serif; font-size: 48px;" >conta com os</span> 
-            <span style="color:#FFC62F; font-style: italic; font-size: 48px;">melhores e mais <br> preparados</span>
-            <span style="color:#FFFDF2; font-family: 'DM Sans', sans-serif; font-size: 48px;" >profissionais para criar o <br> melhor conteúdo para </span>
-            <span style="color:#FFC62F;font-style: italic; font-size: 48px;">sua criança</span>
+            <span id="mark1">Nossa equipe</span> 
+            <span>conta com os</span> 
+            <span id="mark2">melhores e mais <br> preparados</span>
+            <span>profissionais para criar o <br> melhor conteúdo para </span>
+            <span id="mark2">sua criança</span>
             <br><br>
         </div>
 
@@ -143,32 +151,137 @@
             
           </div>
 
+        <div class="decoracao">
+            <img src="imagens/star3.svg" alt="estrela" id="star3">
+
+            <img src="imagens/star4.svg" alt="estrela" id="star4">
+        </div>   
+
     </div>
+    
     <br><br><br>
-    <div class="forum">
+    
+    <!--Div dos cartões do forúm-->
+    <div class="cartoes-parent">
         <div class="text-forum">
             <h1>Leia artigos e interaja no <br> nosso
                 <span id="destaque1">fórum</span>
             </h1>
         </div>
-        <!--Retangulos de video-->
-        <div class="retangulo-img">
+        <!--Cartões em sí-->
+        <div class="cartoes">
             <div>
-                <div class="retangle"></div>
-                <h3><span id="retangle-text" style="font-size: 16px; color: black;">Lorem ipsum dolor sit amet, <br> consectetur</span></h3>
+                <button>
+                    <div class="retangle2" id="livros"></div>
+                </button>
+                <br>
+                <h3><span id="retangle-text2" style="font-size: 16px; color: black;">Lorem ipsum dolor sit amet, <br> consectetur</span></h3>
+                <br>
             </div>
             <div>
-                <div class="retangle"></div>
-                <h3><span id="retangle-text" style="font-size: 16px; color: black;">Lorem ipsum dolor sit amet, <br> consectetur</span></h3>
+                <button>
+                    <div class="retangle2" id="prof-e-aluno"></div>
+                </button>
+                <br>
+                <h3><span id="retangle-text2" style="font-size: 16px; color: black;">Lorem ipsum dolor sit amet, <br> consectetur</span></h3>
+                <br>
             </div>
             <div>
-                <div class="retangle"></div>
-                <h3><span id="retangle-text" style="font-size: 16px; color: black;">Lorem ipsum dolor sit amet, <br> consectetur</span></h3>
+                <button>
+                    <div class="retangle2" id="lapis"></div>
+                </button>
+                <br>
+                <h3><span id="retangle-text2" style="font-size: 16px; color: black;">Lorem ipsum dolor sit amet, <br> consectetur</span></h3>
+                <br>
             </div>
-        </div> 
+            </div> 
+        </div>  
+        <br><br>
+        <br><br>
     </div>
 
+    <div class="retangle-plataforma-videos">
+        <div class="text-retangle">
+            <h1>Nossa plataforma oferece vídeos <span id="destaque-videos">filtrados & <br> selecionados</span> exclusivamente para cuidar da <span id="destaque-videos">segurança</span> das suas crianças</h1>
+            
+        </div>
+        <div class="descricao">
+            <p id="pzinho">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at mauris <br> quis magna aliquet condimentum.
+            </p>
+            <div class="botao1">
+                <button class="botao-laranja">Assistir agora<img src="imagens/vector-puple.svg" alt="seta" id="vector1"></button>
+            </div>
+        </div>
+    </div>
+        
+        
 
+    </div>
+
+    <!--Div dos cartões do material de apoio-->
+    <div class="cartoes-parent">
+        <div class="text-forum">
+            <h1>Materiais de apoio para <br> 
+                <span id="destaque-forum">pais e professores</span>
+            </h1>
+        </div>
+        <!--Cartões em sí-->
+        <div class="cartoes">
+            <div>
+                <button>
+                    <div class="retangle2" id="giz-de-cera"></div>
+                </button>
+                <br>
+                <h3><span id="retangle-text2" style="font-size: 16px; color: black;">Desenhos para colorir</span></h3>
+                <br>
+            </div>
+            <div>
+                <button>
+                    <div class="retangle2" id="alunos-e-prof"></div>
+                </button>
+                <br>
+                <h3><span id="retangle-text2" style="font-size: 16px; color: black;">Cartões didáticos</span></h3>
+                <br>
+            </div>
+            <div>
+                <button>
+                    <div class="retangle2" id="computador"></div>
+                </button>
+                <br>
+                <h3><span id="retangle-text2" style="font-size: 16px; color: black;">Lorem ipsum dolor sit amet, <br> consectetur</span></h3>
+                <br>
+            </div>
+        </div> 
+    </div>  
+        <br><br>
+        <br><br>
+    </div> 
+
+    <div class="retangle-jogos">
+        <div class="text-retangle">
+            <h1>Disponibilizamos jogos educacionais projetados para <span id="destaque-jogos">estimular o aprendizado</span> das crianças, promovendo o <span id="destaque-jogos">desenvolvimento cognitivo</span> e a <span id="destaque-jogos">criatividade</span>.</h1>
+            
+        </div>
+        <div class="descricao">
+            <p id="pzinho">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at mauris <br> quis magna aliquet condimentum.
+            </p>
+            <div class="botao1">
+                <button class="botao-rosa">Acessar jogos<img src="imagens/vector-white.svg" alt="seta" id="vector1"></button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="clearfix">
+        <div class="div-esquerda">Div 1</div>
+        <div class="div-centro">Div 2</div>
+        <div class="div-direita">Div 3</div>
+      </div>
+      
+      
+
+    
     <link rel="stylesheet" href="js/script.js">
 </body>
 </html>

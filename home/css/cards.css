@@ -29,7 +29,7 @@
 .retangle {
     width: 360px;
     height: 400px;
-    border-radius: 35px;
+    border-radius: 50px;
     background: #704EEA;
     margin: 0 10px;
     font-family: 'DM Sans', sans-serif;
@@ -43,8 +43,29 @@
     white-space: nowrap;
 }
 
+.retangle2{
+    width: 360px;
+    height: 400px;
+    border-radius: 50px;
+    background: #704EEA;
+    margin: 0 10px;
+    font-family: 'DM Sans', sans-serif;
+    color: #FFFDF2;
+    display: flex;               
+    justify-content: center;    
+    align-items:end;                  
+    padding: 80px;     
+    padding-right: 70%;
+    white-space: nowrap;
+}
+
 #retangle-text{
     width: 10;
+}
+
+#retangle-text2{
+    width: 10;
+    padding-left: 10px;
 }
 
 .retangle h3{
@@ -63,3 +84,72 @@
     z-index: -1;                
 }
 
+.retangle-plataforma-videos {            
+    top: 400px;                    
+    left: 0.25px;                    
+    width: 1160px;              
+    height: 611px;             
+    background-color: #FFD25B;  
+    border-radius: 50px;
+    z-index: -1;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+
+.retangle-jogos {            
+    top: 400px;                    
+    left: 0.25px;                    
+    width: 1160px;              
+    height: 611px;             
+    background-color: #E924AE;  
+    border-radius: 50px;
+    z-index: -1;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+
+#livros {
+    background-image: url('cards/livros.svg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#prof-e-aluno {
+    background-image: url('cards/prof-e-aluno.svg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#lapis {
+    background-image: url('cards/lapis.svg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#giz-de-cera {
+    background-image: url('cards/giz-de-cera.svg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#alunos-e-prof{
+    background-image: url('cards/alunos-e-prof.svg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#computador {
+    background-image: url('cards/computador.svg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
