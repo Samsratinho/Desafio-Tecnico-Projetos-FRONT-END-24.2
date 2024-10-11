@@ -1,20 +1,108 @@
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .div-esquerda, .div-centro, .div-direita {
-    float: left;
-    width: 30%;
-    background-color: #FFD25B;
-    padding: 20px;
-    margin-right: 2%;
-    text-align: center;
-    border-radius: 8px;
-  }
-  
-  .div-direita {
-    margin-right: 0; /* Remove a margem da última div */
-  }
-  
+.footer {
+  position: relative;
+  display: flex;
+  height: 80vh;
+  width: 100%;
+  margin-top: 200px;
+  background-image: url('cards/footer.svg');
+  background-position: center;
+  background-position-y: 0vh;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.footer .logo {
+  position: absolute;
+  width: 10vw;
+  height: 10vh;
+  top: 30vh;
+  left: -1vw;
+}
+
+.direitos {
+  position: absolute;
+  top: 60vh;
+  left: 10vw;
+  top: 75vh;
+  width: 15vw;
+}
+
+.direitos p{
+  font-family: 'Montserrat', sans-serif;
+  width: 300px;
+  font-weight: 400;
+  font-size: 2vh;
+  color: white;
+  line-height: 3.695vh;
+  margin-bottom: 2cqw;
+}
+
+
+.contato {
+  position: absolute;
+  top: 30vh;
+  left: 30vw;
+  top: 33.5vh;
+  width: 15vw;
+}
+
+.contato h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 2.771vh;
+  color: white;
+  line-height: 32px;
+  margin-bottom: 2cqw;
+}
+
+.contato p {
+  font-family: 'Montserrat', sans-serif;
+  width: 300px;
+  font-weight: 400;
+  font-size: 2vh;
+  color: white;
+  line-height: 3.695vh;
+  margin-bottom: 2cqw;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 3.2vh;
+}
+
+.redes-sociais button {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+
+.informacoes {
+  position: absolute;
+  top: 30vh;
+  left: 60.026vw;
+  top: 33.5vh;
+  width: 15vw;
+}
+
+.informacoes h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 2.771vh;
+  color: white;
+  line-height: 32px;
+  margin-bottom: 2cqw;
+}
+
+.informacoes button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:450;
+  text-align: left;
+  width: 204px;
+  font-size: 2vh;
+  color: white;
+  line-height: 0.5vh;
+  margin-bottom: 2cqw;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
