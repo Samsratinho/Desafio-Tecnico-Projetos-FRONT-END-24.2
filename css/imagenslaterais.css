@@ -20,7 +20,9 @@
 
 #imagem1 img{
     height: auto;
-    width: 425px;
+    width: 520px;
+    transform: translate(-60px,-45px);
+
 }
 #imagem2{
     width: 388px;
@@ -34,6 +36,7 @@
 #imagem2 img{
     height: auto;
     width: 390px;  
+    
 }
 #imagem3{
     width: 279px;
@@ -46,5 +49,6 @@
 }
 #imagem3 img{
     height: auto;
-    width: 460px;  
+    width: 580px;  
+    transform: translate(-140px,-75px);
 }
