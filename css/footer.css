@@ -19,6 +19,25 @@
     left: 10vw;
 }
 
+.direitos {
+    position: absolute;
+    top: 60vh;
+    left: 10vw;
+    top: 75vh;
+    width: 15vw;
+}
+
+.direitos p{
+        font-family: 'Montserrat', sans-serif;
+    width: 300px;
+    font-weight: 400;
+    font-size: 2vh;
+    color: white;
+    line-height: 3.695vh;
+    margin-bottom: 2cqw;
+}
+
+
 .contato {
     position: absolute;
     top: 30vh;
@@ -38,6 +57,7 @@
 
 .contato p {
     font-family: 'Montserrat', sans-serif;
+    width: 300px;
     font-weight: 400;
     font-size: 2vh;
     color: white;
@@ -55,3 +75,35 @@
     border-style: none;
     cursor: pointer;
 }
+
+.informacoes {
+    position: absolute;
+    top: 30vh;
+    left: 60.026vw;
+    top: 33.5vh;
+    width: 15vw;
+}
+
+.informacoes h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2.771vh;
+    color: white;
+    line-height: 32px;
+    margin-bottom: 2cqw;
+}
+
+.informacoes button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:450;
+    text-align: left;
+    width: 204px;
+    font-size: 2vh;
+    color: white;
+    line-height: 0.5vh;
+    margin-bottom: 2cqw;
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+}
+
