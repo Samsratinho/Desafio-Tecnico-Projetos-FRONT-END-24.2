@@ -75,10 +75,10 @@
     line-height: 1.5;
 }
 
-.full-screen-rectangle {            
+.full-screen-rectangle {           
     top: 400px;                    
     left: 0.25px;                    
-    width: 100vw;              
+    width: 100%;              
     height:730px;             
     background-color: #704EEA;  
     z-index: -999;                

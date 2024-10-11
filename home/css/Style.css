@@ -19,6 +19,15 @@ body {
     justify-content: center;
 }
 
+.decoracao2 {
+    display: flex;
+    width: 1502.96px;
+    height: 304.51px;
+    position: absolute;
+    margin-top: 10vh;
+    justify-content: center;
+}
+
 .introducao {
     position: absolute;
     height: 132px;
@@ -120,7 +129,8 @@ body {
     font-weight: 500;
     color: #FFFDF2;
     text-align: center;
-    margin-top: 7%;
+    
+    margin-top: 60px;
 }
 
 #mark1{
