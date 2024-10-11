@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#container{
+    margin: 226px 140px 140px 120px;
+}
+
+#btn_saibamais{
+    background-color: #704EEA;
+    color: #FFFFFF;
+    font-family: 'DM Sans';
+    font-size: 1rem; 
+    font-weight: 700;
+    width: 10.75rem; 
+    height: 3.25rem; 
+    top: 41.44rem;
+    left: 7.69rem; 
+    padding: 0.625rem 1.875rem; 
+    gap: 0.9375rem; 
+    border-radius: 3.125rem; 
+    margin-top: 35px;
+    border: none;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+
+#txt_titulo {
+    width: 36.06rem; 
+    height: 11.81rem; 
+    margin-top: 60px; 
+    font-family: 'DM Sans';
+    font-size: 3rem; 
+    font-weight: 600;
+    line-height: 3.945rem; 
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+#span_grupocerto {
+    font-family: 'DM Serif Display';
+    font-size: 3rem; 
+    font-style: italic;
+    font-weight: 400;
+    line-height: 3.945rem;
+    text-align: left;
+    color: #E924AE;
+}
+
+#span_interesses {
+    font-family: 'DM Serif Display';
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 3.945rem; 
+    text-align: left;
+    color: #F19436;
+}
+
+#txt_subtitulo {
+    font-family: 'DM Sans';
+    width: 477px;
+    height: 128px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.075em;
+    text-align: left;
+    color: #0A0430;
+}
+

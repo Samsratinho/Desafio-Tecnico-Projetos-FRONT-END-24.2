@@ -1,0 +1,50 @@
+#retangulo{
+    width: 181px;
+    height: 78px;
+    margin-top: 302px;
+    margin-left: 810px;
+    border-radius: 100px;
+    background-color: #FFC62F;
+    position: absolute;
+    outline: 15px solid #FFFFFF;
+
+}
+#imagem1{
+    width: 279px;
+    height: 282px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 647px;
+    overflow: hidden;
+}
+
+#imagem1 img{
+    height: auto;
+    width: 425px;
+}
+#imagem2{
+    width: 388px;
+    height: 195px;
+    margin-top: 306px;
+    margin-left: 529px;
+    border-radius: 50px;
+    position: absolute;
+    overflow: hidden;
+}
+#imagem2 img{
+    height: auto;
+    width: 390px;  
+}
+#imagem3{
+    width: 279px;
+    height: 282px;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 74px;
+    margin-left: 950px;
+    overflow: hidden;
+}
+#imagem3 img{
+    height: auto;
+    width: 460px;  
+}
