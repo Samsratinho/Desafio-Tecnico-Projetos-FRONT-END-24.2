@@ -81,7 +81,7 @@
     width: 100vw;              
     height:730px;             
     background-color: #704EEA;  
-    z-index: -1;                
+    z-index: -999;                
 }
 
 .retangle-plataforma-videos {            
