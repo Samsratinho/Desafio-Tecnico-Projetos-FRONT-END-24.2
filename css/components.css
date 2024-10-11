@@ -8,6 +8,8 @@
     height: auto;
     justify-content: center;
     align-items: center;
+
+
 }
 
 .linha p {
@@ -17,7 +19,7 @@
     line-height: 32px;
     letter-spacing: 0.075em;
     text-align: left;
-    align-content: center;
+    align-content: baseline;
     justify-items: center;
 }
 
