@@ -10,35 +10,39 @@ body {
 }
 
 #container{
-    margin: 226px 140px 140px 120px;
+    margin: 31.741573033707866vh 19.662921348314608vh 19.662921348314608vh 16.853932584269664vh;
 }
+
 
 #btn_saibamais{
-    background-color: #704EEA;
-    color: #FFFFFF;
-    font-family: 'DM Sans';
-    font-size: 1rem; 
-    font-weight: 700;
-    width: 10.75rem; 
-    height: 3.25rem; 
-    top: 41.44rem;
-    left: 7.69rem; 
-    padding: 0.625rem 1.875rem; 
-    gap: 0.9375rem; 
-    border-radius: 3.125rem; 
-    margin-top: 35px;
-    border: none;
-    align-items: center;
-    flex-direction: row;
-    display: flex;
-}
+        background-color: #704EEA;
+        color: #FFFFFF;
+        font-family: 'DM Sans',sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        width: 172px;
+        height: 52px;
+        padding: 10px 30px;
+        gap: 15px;
+        border-radius: 50px;
+        margin-top: 35px;
+        border: none;
+        align-items: center;
+        flex-direction: row;
+        display: flex;
+        white-space: nowrap;
+        cursor: pointer;
+    }
 
+#btn_saibamais:hover{
+    background-color: #593BBF; 
+}
 
 #txt_titulo {
     width: 36.06rem; 
     height: 11.81rem; 
     margin-top: 60px; 
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 3rem; 
     font-weight: 600;
     line-height: 3.945rem; 
@@ -47,7 +51,7 @@ body {
 }
 
 #span_grupocerto {
-    font-family: 'DM Serif Display';
+    font-family: 'DM Serif Display' , sans-serif;
     font-size: 3rem; 
     font-style: italic;
     font-weight: 400;
@@ -57,7 +61,7 @@ body {
 }
 
 #span_interesses {
-    font-family: 'DM Serif Display';
+    font-family: 'DM Serif Display', sans-serif;
     font-size: 3rem;
     font-style: italic;
     font-weight: 400;
@@ -67,10 +71,10 @@ body {
 }
 
 #txt_subtitulo {
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     width: 477px;
     height: 128px;
-    font-family: DM Sans;
+    font-family: DM Sans, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 32px;

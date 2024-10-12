@@ -8,13 +8,6 @@
     margin-top: 165px;
 }
 
-.container_flex {
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    gap: 3.125rem;
-}
-
 .card_topico{
     display: inline-block;
     text-align: center;
@@ -25,13 +18,12 @@
     height: 464px;
     top: 1280px;
     left: 140px;
-    box-shadow: 0px 0px 0px 1px #00000014;
     box-shadow: 0px 6px 24px 0px #0000000D;
     padding: 40px 60px 60px 38px ;
 }
 
 .card_topico h3{
-    font-family: DM Sans;
+    font-family: DM Sans, sans-serif;
     font-size: 36px;
     font-weight: 600;
     line-height: 52px;
@@ -40,7 +32,7 @@
 }
 
 .card_topico p{
-    font-family: DM Sans;
+    font-family: DM Sans,  sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -114,20 +106,17 @@
 }
 
 #nome_usuario{
-    font-family: DM Sans;
+    font-family: DM Sans,  sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
     text-align: left;
     padding-left: 20px;
 }
-#usuario{
-    display: flex;
-}
 
 #horario{
     padding-left: 20px;
-    font-family: DM Sans;
+    font-family: DM Sans , sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -150,7 +139,10 @@
     align-items: center;
     border: none;
     background-color: white;
+    cursor: pointer;
 }
+
+
 #btn_addcomentario{
     display: flex;
     flex-direction: row;
@@ -158,9 +150,12 @@
     border: none;
     background-color: white;
     margin-left: 30px;
+    cursor: pointer;
+
 }
+
 #facacomo{
-    font-family: DM Sans;
+    font-family: DM Sans,  sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -184,6 +179,8 @@
     align-items: center;
     margin-bottom: 27px;
     margin-top: 15px;
+    cursor: pointer;
+
 }
 #btn_vermais img{
     margin-left: 10px;
@@ -193,7 +190,6 @@
     width: 100%;
     height: 268px;
     border-radius: 50px;
-    box-shadow: 0px 0px 0px 1px #00000014;
     box-shadow: 0px 6px 24px 0px #0000000D;
     margin-bottom: 120px;
     margin-top: 165px;
@@ -202,7 +198,7 @@
 }
 
 #caixadetexto{
-    font-family: DM Sans;
+    font-family: DM Sans ,  sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -222,6 +218,11 @@
     border: none;
     border-radius: 10px;
     margin-left:1074px ;
+    cursor: pointer;
+text-align: center;
+}
+#btn_plus:hover{
+    background-color: #caabf2; 
 }
 
 textarea{
