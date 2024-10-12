@@ -53,6 +53,7 @@
     border-radius: 12px;
     position: relative; 
 }
+
 #quadradoamarelo {
     background: #FFF3A9;
     width: 59px;
@@ -60,9 +61,10 @@
     border-radius: 12px;
     position: relative; 
 }
+
 #iconcavalo {
     position: absolute; 
-    top: 1404px; 
+    top: 1414px; 
     left: 175px;
     height: auto;
     width: 52px; 
@@ -70,14 +72,14 @@
 /*cervo*/
 #iconcervo {
     position: absolute; 
-    top: 1956px; 
+    top: 1962px; 
     left: 165px; 
     height: auto;
     width: 65px; 
 }
 #iconcavalo2 {
     position: absolute; 
-    top: 2511px; 
+    top: 2521px; 
     left: 175px; 
     height: auto;
     width: 52px; 
@@ -85,7 +87,7 @@
 /*cervo*/
 #iconcervo2 {
     position: absolute; 
-    top: 3064px; 
+    top: 3070px; 
     left: 165px; 
     height: auto;
     width: 65px;
@@ -217,9 +219,9 @@
     background-color: #DFC8FE;
     border: none;
     border-radius: 10px;
-    margin-left:1074px ;
     cursor: pointer;
-text-align: center;
+    align-items: center;
+    text-align: center;
 }
 #btn_plus:hover{
     background-color: #caabf2; 
