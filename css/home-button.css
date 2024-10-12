@@ -1,0 +1,93 @@
+
+.botao-roxo {
+    width: 172px;
+    height: 52px;
+    background-color: #704EEA;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    white-space: nowrap;
+    margin-top: 60px;
+}
+
+.botao-roxo:hover {
+    background-color: #593BBF; 
+}
+
+
+
+
+.botão1{
+    position: relative;
+    z-index: 10; /* Garante que o botão esteja à frente */
+    cursor: pointer;
+}
+
+.botao-laranja {
+    cursor: pointer;
+    width: 233px; 
+    height: 55px; 
+    background-color: #FFD25B; 
+    color: #704EEA; 
+    border-radius: 50px;
+    border: 1px solid #704EEA;
+    padding: 10px 30px 10px 30px;
+    gap: 15px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    margin: 60px auto 0 auto; 
+    z-index: 2;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.botao-laranja:hover {
+    background-color: #593BBF;
+    transform: scale(1.05); /* Aumenta levemente o tamanho ao passar o mouse */
+}
+
+.botao-rosa{
+    cursor: pointer;
+    width: 233px; 
+    height: 55px; 
+    background-color: #E924AE; 
+    color: #FFFDF2; 
+    border-radius: 50px;
+    border: 1px solid #FFFDF2;
+    padding: 10px 30px 10px 30px;
+    gap: 15px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    margin: 60px auto 0 auto; 
+    z-index: 2;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.botao-laranja:hover {
+    background-color: #FFFDF2;
+    transform: scale(1.05); /* Aumenta levemente o tamanho ao passar o mouse */
+}
