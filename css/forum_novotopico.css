@@ -1,0 +1,234 @@
+#novotopico {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteiner{ 
+    margin-top: 165px;
+}
+
+.card_topico{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 100%;
+    max-width: 100%;
+    height: 464px;
+    top: 1280px;
+    left: 140px;
+    box-shadow: 0px 6px 24px 0px #0000000D;
+    padding: 40px 60px 60px 38px ;
+}
+
+.card_topico h3{
+    font-family: DM Sans, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: left;
+    padding-bottom: 31px;
+}
+
+.card_topico p{
+    font-family: DM Sans,  sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.075em;
+    text-align: left;
+    color: #0A0430;
+
+}
+
+#txt_comentario{
+    padding-top: 30px;
+}
+/*cavalo*/
+#quadradoroxo {
+    background: #DFC8FE;
+    width: 59px;
+    height: 59px;
+    border-radius: 12px;
+    position: relative; 
+}
+#quadradoamarelo {
+    background: #FFF3A9;
+    width: 59px;
+    height: 59px;
+    border-radius: 12px;
+    position: relative; 
+}
+#iconcavalo {
+    position: absolute; 
+    top: 1404px; 
+    left: 175px;
+    height: auto;
+    width: 52px; 
+}
+/*cervo*/
+#iconcervo {
+    position: absolute; 
+    top: 1956px; 
+    left: 165px; 
+    height: auto;
+    width: 65px; 
+}
+#iconcavalo2 {
+    position: absolute; 
+    top: 2511px; 
+    left: 175px; 
+    height: auto;
+    width: 52px; 
+}
+/*cervo*/
+#iconcervo2 {
+    position: absolute; 
+    top: 3064px; 
+    left: 165px; 
+    height: auto;
+    width: 65px;
+}
+
+#primeiro_comentario, #segundo_comentario, #terceiro_comentario{
+    margin-bottom: 90px;
+}
+
+#usuario {
+    display: flex;
+    align-items: center;
+}
+
+#nome_usuario, #horario {
+    margin: 0;
+    padding-left: 10px;
+}
+
+#nome_usuario{
+    font-family: DM Sans,  sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#horario{
+    padding-left: 20px;
+    font-family: DM Sans , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #D9D9D9;
+}
+
+#acoes{
+    display: flex;
+    flex-direction: row;
+
+}
+#icon_comentario{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+#btn_salvar{
+    align-items: center;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+#btn_addcomentario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    background-color: white;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+
+#facacomo{
+    font-family: DM Sans,  sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.075em;
+    text-align: left;
+    width: 455px;
+    height: 72px;
+    }
+
+#parte_inferior{
+    display: flex;
+    flex-direction: row;
+}
+
+#btn_vermais{
+    border: none;
+    background-color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 27px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+#btn_vermais img{
+    margin-left: 10px;
+}
+
+#card_add{
+    width: 100%;
+    height: 268px;
+    border-radius: 50px;
+    box-shadow: 0px 6px 24px 0px #0000000D;
+    margin-bottom: 120px;
+    margin-top: 165px;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+
+#caixadetexto{
+    font-family: DM Sans ,  sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #BFBFBF;
+    width: 1100px;
+    height: 144px;
+    margin-bottom: 10px;
+    resize: none;
+    display: block;
+}
+
+#btn_plus{
+    width: 43px;
+    height: 43px;
+    background-color: #DFC8FE;
+    border: none;
+    border-radius: 10px;
+    margin-left:1074px ;
+    cursor: pointer;
+text-align: center;
+}
+#btn_plus:hover{
+    background-color: #caabf2; 
+}
+
+textarea{
+    border: none;
+}
+::placeholder{
+    color: #BFBFBF;
+
+}
