@@ -113,42 +113,42 @@
 }
 
 #livros {
-    background-image: url('cards/livros.svg');
+    background-image: url('../img/home-cards/livros.svg');
     background-position: center;
     background-size: cover;
     overflow: hidden;
 }
 
 #prof-e-aluno {
-    background-image: url('cards/prof-e-aluno.svg');
+    background-image: url('../img/home-cards/prof-e-aluno.svg');
     background-position: center;
     background-size: cover;
     overflow: hidden;
 }
 
 #lapis {
-    background-image: url('cards/lapis.svg');
+    background-image: url('../img/home-cards/lapis.svg');
     background-position: center;
     background-size: cover;
     overflow: hidden;
 }
 
 #giz-de-cera {
-    background-image: url('cards/giz-de-cera.svg');
+    background-image: url('../img/home-cards/giz-de-cera.svg');
     background-position: center;
     background-size: cover;
     overflow: hidden;
 }
 
 #alunos-e-prof{
-    background-image: url('cards/alunos-e-prof.svg');
+    background-image: url('../img/home-cards/alunos-e-prof.svg');
     background-position: center;
     background-size: cover;
     overflow: hidden;
 }
 
 #computador {
-    background-image: url('cards/computador.svg');
+    background-image: url('../img/home-cards/computador.svg');
     background-position: center;
     background-size: cover;
     overflow: hidden;

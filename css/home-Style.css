@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+h1{
+    font-weight: 600;
+    font-size: 36px;
+        
+    font-family: 'DM Sans', sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -85,7 +92,7 @@ body {
 .text-retangle{
     position: absolute;
     size: 36px;
-    width: 906px;
+    width: 1000px;
     height: 157px;
     margin-top: -220px;
     font-weight: 600;
@@ -93,6 +100,8 @@ body {
     text-align: center;
     
 }
+
+
 
 #destaque-videos {
     font-size: 36px;
