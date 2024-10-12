@@ -64,31 +64,27 @@
 
 #iconcavalo {
     position: absolute; 
-    top: 1414px; 
-    left: 175px;
+    transform: translate(-15px,-45px);
     height: auto;
     width: 52px; 
 }
 /*cervo*/
 #iconcervo {
     position: absolute; 
-    top: 1962px; 
-    left: 165px; 
+    transform: translate(-25px,-50px);
     height: auto;
     width: 65px; 
 }
 #iconcavalo2 {
     position: absolute; 
-    top: 2521px; 
-    left: 175px; 
+    transform: translate(-15px,-45px);
     height: auto;
     width: 52px; 
 }
 /*cervo*/
 #iconcervo2 {
     position: absolute; 
-    top: 3070px; 
-    left: 165px; 
+    transform: translate(-25px,-50px);
     height: auto;
     width: 65px;
 }
