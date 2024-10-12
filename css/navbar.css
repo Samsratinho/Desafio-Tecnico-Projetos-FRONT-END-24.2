@@ -13,7 +13,7 @@
 }
 
 .box {
-    width: 449px;
+    width: 450px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -48,9 +48,17 @@
     font-weight: 500;
 }
 
+.nav-links a:hover {
+    text-shadow: 0 0 20px white;
+}
+
 .selector {
     position: absolute;
     z-index: 999;
     top: 43px;
-    left: 40px;
+    left: 0px;
+}
+
+.active li {
+    font-weight: bold;
 }

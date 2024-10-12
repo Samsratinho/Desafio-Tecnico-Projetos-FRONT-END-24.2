@@ -1,0 +1,36 @@
+#cross1 {
+    position: absolute;
+    top: 0px;
+    left: 13px;
+}
+
+#circle1 {
+    top: 334px;
+    left: 0px;
+    position: absolute;
+}
+
+#circle2 {
+    position: absolute;
+    top: 136px;
+    right: 165px;
+}
+
+#star1 {
+    position: absolute;
+    top: 124px;
+    left: 106px;
+}
+
+#star2 {
+    position: absolute;
+    top: 210px;
+    right: 0px;
+}
+
+.retangle {
+    width: 360px;
+    height: 220px;
+    border-radius: 35px;
+    background-color: #FDEBD3;
+}

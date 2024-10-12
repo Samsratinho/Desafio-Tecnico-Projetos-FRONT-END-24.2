@@ -1,0 +1,61 @@
+.linha {
+    padding-top: 154px;
+    display: flex;
+    position: relative;
+    margin-top: 199px;
+    margin-left: 51px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.linha p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.075em;
+    text-align: left;
+    align-content: center;
+    justify-items: center;
+}
+
+.linha p {
+    margin-top: 20px;
+    margin-right: 40px;
+    width: 260px;
+    height: 96px;
+    top: 1138px;
+    left: 140px;
+}
+
+.linha img {
+    margin-top: 90px;
+}
+
+#capelo {
+    width: 47.5px;
+    height: 40px;
+    border: 4.5px;
+}
+
+#lápis {
+    width: 40px;
+    height: 40px;
+    border: 4.5px;
+}
+
+#lua {
+    width: 40px;
+    height: 44.98px;
+    border: 4.5px
+}
+
+#escola {
+    width: 45px;
+    height: 45px;
+    border: 2.5px;
+}

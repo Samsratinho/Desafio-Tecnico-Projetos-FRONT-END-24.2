@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 36px;
+        
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.decoracao {
+    display: flex;
+    height: 405px;
+    width: 78rem;
+    position: relative;
+    margin-top: 20vh;
+    justify-content: center;
+}
+
+.decoracao2 {
+    display: flex;
+    width: 1502.96px;
+    height: 304.51px;
+    position: absolute;
+    margin-top: 10vh;
+    justify-content: center;
+}
+
+.introducao {
+    position: absolute;
+    height: 132px;
+    width: 940px;
+    top: -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introducao h1 {
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.descricao {
+    margin-top: 50px;
+    height: 140px;
+    width: 75%;
+    position: relative;
+}
+
+.descricao p {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    line-height: 32px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#pzinho{
+    margin-top: 35px;
+    font-weight: 500;
+}
+
+#destaque1 {
+    font-size: 48px;
+    font-family: 'DM Serif Display', sans-serif;
+    font-style: italic;
+    color: #704EEA;
+    font-weight: 400;
+}
+
+#destaque-forum {
+    font-size: 36px;
+    font-family: 'DM Serif Display', sans-serif;
+    font-style: italic;
+    color: #704EEA;
+    font-weight: 400;
+}
+
+.text-retangle{
+    position: absolute;
+    size: 36px;
+    width: 1000px;
+    height: 157px;
+    margin-top: -220px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: center;
+    
+}
+
+
+
+#destaque-videos {
+    font-size: 36px;
+    font-family: 'DM Serif Display', sans-serif;
+    font-style: italic;
+    color: #704EEA;
+    font-weight: 400;
+}
+
+#destaque-jogos {
+    font-size: 36px;
+    font-family: 'DM Serif Display', sans-serif;
+    font-style: italic;
+    color: #FFFDF2;
+    font-weight: 400;
+}
+
+#Ezão {
+    font-family: 'DM Serif Display', sans-serif;
+    
+}
+
+#destaque2 {
+    font-size: 48px;
+    font-family: 'DM Serif Display', sans-serif;
+    font-style: italic;
+    color: #F19436;
+    font-weight: 400;
+}
+
+#nossa-equipe{
+    font-size: 48px;
+    line-height: 69px;
+    font-weight: 500;
+    color: #FFFDF2;
+    text-align: center;
+    
+    margin-top: 60px;
+}
+
+#mark1{
+    font-style: italic;
+    font-weight: 400;
+    font-family: 'DM Serif Display', sans-serif;
+}
+
+#mark2{
+    font-family: 'DM Serif Display', sans-serif;
+    color: #FFC62F;
+    font-style: italic;
+}
+
+#text-padrão{
+    color:#FFFDF2; 
+    font-style: italic;
+}

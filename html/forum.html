@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/forum_cards.css" rel="stylesheet">
+    <link href="../css/forum_imagenslaterais.css" rel="stylesheet">
+    <link href="../css/forum_novotopico.css" rel="stylesheet">
+    <link href="../css/footer.css" rel="stylesheet">
+    <link href="../css/navbar.css" rel="stylesheet">
+    <link href="../css/forum_styles.css" rel="stylesheet">
+    <link href="../css/footer.css" rel="stylesheet">
+    <!--Scripts-->
+    <script src="../js/navbar.js" defer></script>
+
+    <!--Google fonts import-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--DM Serif Display-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <!--DM Sans-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+    <title>PS 2024.2 EJECT</title>
+</head>
+<body>
+    <!--Barra de navegação-->
+    <div class="navbar">
+        <div class="logo">
+            <img src="../img/logo.svg">                
+        </div>
+        <div class="nav-parent">
+            <div class="box">
+                <ul class="nav-links">
+                    <a href="home.html"><li>home</li></a>
+                    <a href="videos.html"><li>vídeos</li></a>
+                    <a href="forum.html"><li>fórum</li></a>
+                    <a href="pais_e_profs.html"><li>pais & profs</li></a>
+                </ul>
+            </div>
+            <div class="selector">
+                <img src="../img/selector.svg" alt="seletor">                   
+            </div>
+        </div>
+    </div>
+    
+<div id="container">
+        <!-- Título principal e botão de ver mais -->
+        <div>
+        <div style="display: flex; flex-direction: row; justify-content: space-between; align-items:start;">
+            <div  style="display: flex; flex-direction: column;">
+                <!-- Título da página -->
+                <h1 class="txt" id="txt_titulo">Encontre o <span id="span_grupocerto">grupo certo</span> para compartilhar seus <span id="span_interesses">interesses</span></h1>
+                    <p class="txt" id="txt_subtitulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at mauris quis magna aliquet condimentum. Cras et turpis id eros tincidunt faucibus.</p>
+                   
+                    <!-- Botão Saber Mais com ícone -->
+                    <button id="btn_saibamais">Saber Mais<img src="../img/btn_forum/seta_sabermais.svg" id="icon_btn_saibamais">
+                    </button>
+                </div> 
+                
+             <!-- Imagens laterais decorativas -->
+                <div id="imagenslaterais"; style="position: absolute; margin-top: 0;">
+                    <div id="imagem1">
+                        <img src="../img/imagenslateral/imagem1.png">                
+                    </div>
+                    <div id="imagem2">
+                        <img src="../img/imagenslateral/imagem2.png">                
+                    </div>
+                    <div id="imagem3">
+                        <img src="../img/imagenslateral/imagem3.png">                
+                    </div>
+                    <div id="retangulo"></div>
+                </div>
+           </div>
+    </div>
+    
+    <!-- Novos tópicos -->
+
+    <section id="novotopico">
+            <!-- Caixa para adicionar novo tópico -->
+        <div id="card_add">
+            <textarea id="caixadetexto" placeholder="Adicionar um novo tópico"></textarea>
+            <div style="text-align: right; padding-right: 40px;">
+            <button id="btn_plus">
+                 <img src="../img/btn_forum/plus.svg">
+            </button></div>
+       </div>
+    
+   <!-- Primeiro tópico/comentário -->
+        <div class="card_topico" id="primeiro_comentario">
+            <h3>Lorem ipsum dolor sit amet</h3> <!-- Título do tópico -->
+            <div id="usuario">
+                <div id="usuario">
+                    <div id="cavaloanonimo">
+                        <div id="quadradoroxo"></div>  <!--quadrado do perfil-->
+                            <img src="../img/cavaloanonimoimg.svg" id="iconcavalo">  <!-- Ícone do usuário Cavalo Anônimo -->
+                        </div>              
+                    </div>  
+                    <div style="display: flex; flex-direction: column;">
+                        <h4 id="nome_usuario">Cavalo Anônimo</h4> <!--Nome do usuário-->
+                        <p id="horario">12h atrás</p> <!-- Tempo desde o post -->
+                    </div>
+                </div>
+            
+     <!-- Texto do comentário resumido -->
+            <p id="txt_comentario">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at mauris quis magna aliquet condimentum. Cras et turpis id eros tincidunt 
+                faucibus. Nullam aliquam malesuada neque, ac hendrerit lacus tincidunt eu. Nullam aliquam malesuada neque, ac hendrerit lacus tincidunt eu...
+            </p>
+        
+            <!-- Botão para expandir o comentário -->
+            <button id="btn_vermais">
+                <p style="color: #D9D9D9;">Ver mais</p> <!--Texto do botão-->
+                <img src="../img/btn_forum/seta_vermais.svg"> <!--Icone do botão-->          
+            </button>
+<!--Parte inferior do card (Botões e texto)-->
+           <div id="parte_inferior" style="justify-content: space-between;">
+                <div id="acoes" style="justify-content: space-around;">
+                <!--Salvar conteudo-->
+                    <button id="btn_salvar">
+                        <img src="../img/btn_forum/salvar.svg" id="icon_salvar">    
+                    </button>
+                <!--Adicionar comentario-->
+                    <button id="btn_addcomentario">
+                        <img src="../img/btn_forum/comentario.svg" id="icon_comentario">    
+                        <p>Adicionar comentário</p> 
+                    </button>  
+                </div>
+                <div>
+                    <p id="facacomo">Faça como Capivara Anônima, Falcão Anônimo e outras 20 pessoas e comente sobre <span style="font-family: DM Sans;font-weight: 700;">  Lorem ipsum dolor sit amet</span></p>
+                </div>
+            </div>
+        </div>
+
+        <!--cervo anonimo-->
+        
+        <div class="card_topico" id="segundo_comentario">
+            <h3>Lorem ipsum dolor sit amet</h3>
+                <div id="usuario">
+                    <div id="cervoanonimo">
+                        <div id="quadradoamarelo"></div>  <!--quadrado do perfil-->
+                        <img src="../img/cervoicon.svg" id="iconcervo">              
+                    </div>  
+                    <div style="display: flex; flex-direction: column;">
+                        <h4 id="nome_usuario">Cervo Anônimo</h4><!--Nome do usuário-->
+                        <p id="horario">1d atrás</p> <!-- Tempo desde o post -->
+                    </div>
+                </div>
+            <p id="txt_comentario">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at mauris quis magna aliquet condimentum. Cras et turpis id eros tincidunt 
+                faucibus. Nullam aliquam malesuada neque, ac hendrerit lacus tincidunt eu. Nullam aliquam malesuada neque, ac hendrerit lacus tincidunt eu...
+            </p>
+        <!-- Botão para expandir o comentário -->
+            <button id="btn_vermais">
+                <p style="color: #D9D9D9;">Ver mais</p>
+                <img src="../img/btn_forum/seta_vermais.svg">                
+            </button>
+
+           <div id="parte_inferior" style="justify-content: space-between;">
+                <div id="acoes" style="justify-content: space-around;">
+                    <button id="btn_salvar">
+                        <img src="../img/btn_forum/salvar.svg" id="icon_salvar">    
+                    </button>
+                    <button id="btn_addcomentario">
+                        <img src="../img/btn_forum/comentario.svg" id="icon_comentario">    
+                        <p>Adicionar comentário</p> 
+                    </button>  
+                </div>
+                <div>
+                    <p id="facacomo">Faça como Capivara Anônima, Falcão Anônimo e outras 6 pessoas e comente sobre <span style="font-family: DM Sans;font-weight: 700;">  Lorem ipsum dolor sit amet</span></p>
+                </div>
+            </div>
+        </div>
+<!--terceiro comentario-->
+
+<div class="card_topico" id="terceiro_comentario">
+    <h3>Lorem ipsum dolor sit amet</h3>
+        <div id="usuario">
+            <div id="cavaloanonimo">
+                <div id="quadradoroxo"></div>  
+                <img src="../img/cavaloanonimoimg.svg" id="iconcavalo2">              
+            </div>  
+            <div style="display: flex; flex-direction: column;">
+                <h4 id="nome_usuario">Cavalo Anônimo</h4>
+                <p id="horario">12h atrás</p>
+            </div>
+        </div>
+    <p id="txt_comentario">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at mauris quis magna aliquet condimentum. Cras et turpis id eros tincidunt 
+        faucibus. Nullam aliquam malesuada neque, ac hendrerit lacus tincidunt eu. Nullam aliquam malesuada neque, ac hendrerit lacus tincidunt eu...
+    </p>
+    <button id="btn_vermais">
+        <p style="color: #D9D9D9;">Ver mais</p>
+        <img src="../img/btn_forum/seta_vermais.svg">                
+    </button>
+
+   <div id="parte_inferior" style="justify-content: space-between;">
+        <div id="acoes" style="justify-content: space-around;">
+            <button id="btn_salvar">
+                <img src="../img/btn_forum/salvar.svg" id="icon_salvar">    
+            </button>
+            <button id="btn_addcomentario">
+                <img src="../img/btn_forum/comentario.svg" id="icon_comentario">    
+                <p>Adicionar comentário</p> 
+            </button>  
+        </div>
+        <div>
+            <p id="facacomo">Faça como Capivara Anônima, Falcão Anônimo e outras 20 pessoas e comente sobre <span style="font-family: DM Sans;font-weight: 700;">  Lorem ipsum dolor sit amet</span></p>
+        </div>
+    </div>
+</div>
+
+<!--cervo anonimo-->
+
+<div class="card_topico" id="quarto_comentario">
+    <h3>Lorem ipsum dolor sit amet</h3>
+        <div id="usuario">
+            <div id="cervoanonimo">
+                <div id="quadradoamarelo"></div>  
+                <img src="../img/cervoicon.svg" id="iconcervo2">              
+            </div>  
+            <div style="display: flex; flex-direction: column;">
+                <h4 id="nome_usuario">Cervo Anônimo</h4>
+                <p id="horario">1d atrás</p>
+            </div>
+        </div>
+    <p id="txt_comentario">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at mauris quis magna aliquet condimentum. Cras et turpis id eros tincidunt 
+        faucibus. Nullam aliquam malesuada neque, ac hendrerit lacus tincidunt eu. Nullam aliquam malesuada neque, ac hendrerit lacus tincidunt eu...
+    </p>
+    <button id="btn_vermais">
+        <p style="color: #D9D9D9;">Ver mais</p>
+        <img src="../img/btn_forum/seta_vermais.svg">                
+    </button>
+
+    <div id="parte_inferior" style="justify-content: space-between;">
+        <div id="acoes" style="justify-content: space-around;">
+            <button id="btn_salvar">
+                <img src="../img/btn_forum/salvar.svg" id="icon_salvar">    
+            </button>
+            <button id="btn_addcomentario">
+                <img src="../img/btn_forum/comentario.svg" id="icon_comentario">    
+                <p>Adicionar comentário</p> 
+            </button>  
+        </div>
+        <div>
+            <p id="facacomo">Faça como Capivara Anônima, Falcão Anônimo e outras 6 pessoas e comente sobre <span style="font-family: DM Sans;font-weight: 700;">  Lorem ipsum dolor sit amet</span></p>
+        </div>
+    </div>
+</div>
+
+    </section>
+
+    <!--Topicos populares cards-->
+    <div id="topicospopulares">
+    <h2>Tópicos <span id="span_populares">populares</span></h2>
+    <div class="container_flex">
+        <div class="card_flex">
+            <h3>Lorem ipsum dolor sit amet</h3>
+            <p class="txt_topicos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at mauris quis magna aliquet condimentumt.</p>
+            <div class="txt_icon" >
+                <img src="../img/btn_forum/comentario.svg">    
+                <p class="qnt_pessoas">25 pessoas estão discutindo esse tópico</p>
+           </div>
+           <div class="txt_icon">
+                <img src="../img/btn_forum/relogio.svg" class="icon_tempo">    
+                <p class="tempo">Criado à 3 meses</p>
+           </div>
+        </div>
+        <div class="card_flex">
+            <h3>Lorem ipsum dolor sit amet</h3>
+            <p class="txt_topicos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at mauris quis magna aliquet condimentumt.</p>
+            <div class="txt_icon">
+                <img src="../img/btn_forum/comentario.svg">    
+                <p class="qnt_pessoas">25 pessoas estão discutindo esse tópico</p>
+           </div>
+           <div class="txt_icon">
+                <img src="../img/btn_forum/relogio.svg" class="icon_tempo">    
+                <p class="tempo">Criado à 3 meses</p>
+           </div>
+        </div>       
+        <div class="card_flex">
+            <h3>Lorem ipsum dolor sit amet</h3>
+            <p class="txt_topicos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at mauris quis magna aliquet condimentumt.</p>
+           <div class="txt_icon">
+                <img src="../img/btn_forum/comentario.svg">    
+                <p class="qnt_pessoas">25 pessoas estão discutindo esse tópico</p>
+           </div>
+           <div class="txt_icon">
+                <img src="../img/btn_forum/relogio.svg" class="icon_tempo">    
+                <p class="tempo">Criado à 3 meses</p>
+           </div>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="footer">
+    <img src="../img/logo.svg" alt="logo" class="logo">
+    <div class="direitos">
+        <p>
+            EJECT © Alguns Direitos Reservados
+        </p>
+    </div>
+     <div class="contato">
+        <h2>CONTATO</h2>
+
+        <p>
+            +55 21 99999-9999
+            contato@sabidinhos.com
+        </p>    
+        <p>
+            Rua ali perto, 2000 - Candelária <br>
+            Rio Grande do Norte - RN
+        </p>
+        <div class="redes-sociais">
+            <button>
+                <img src="../img/redes-sociais/instagram.svg" alt="instagram">
+            </button>
+            <button>
+                <img src="../img/redes-sociais/facebook.svg" alt="facebook">
+            </button>
+            <button>
+                <img src="../img/redes-sociais/youtube.svg" alt="youtube">
+            </button>
+        </div>
+    </div>
+
+    <div class="informacoes">
+        <h2 >INFORMAÇÕES</h2>
+
+        <p>
+        <button>Exames Laboratoriais</button> <br>
+        <button>Consultas Veterinarias</button> <br>
+        <button>Plano PET de sáude</button> <br>
+        <button>Quem somos?</button>
+        </p>
+    </div>
+</div>
+</body>
+</html>

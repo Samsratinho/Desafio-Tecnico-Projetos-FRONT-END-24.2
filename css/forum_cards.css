@@ -1,0 +1,83 @@
+.txt_icon{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.card_flex{
+    background-color: #DFC8FE;
+    box-shadow: 0px 1px 3px -1px #0000004D;
+    box-shadow: 0px 2px 5px -1px #32325D40;
+    width: 380px;
+    height: 400px;
+    gap: 5%;
+    border-radius: 50px 50px 50px 50px;
+    padding:30px 30px 29px 29px;
+    align-items: center;
+    
+}
+
+.card_flex h3{
+    font-family: DM Sans, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.card_flex p{
+    font-family: DM Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.075em;
+    text-align: left;
+    color: #0A0430;
+}
+
+#span_populares{
+    font-family: DM Serif Display,  sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: left;
+    color: #6F24E9;
+}
+h2{
+    margin-top: 120px;
+    margin-bottom: 60px;
+    height: 52px;
+    font-family: DM Sans , sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: center;
+}
+
+.qnt_pessoas{
+    padding-left: 15px;
+}
+
+.tempo {
+    margin-top: 18px;
+
+}
+
+.icon_tempo{
+    margin-right: 13px;
+    margin-top: 18px;
+}
+
+.txt_topicos{
+    padding-bottom: 52px;
+}
+
+.container_flex {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.125rem;
+}
