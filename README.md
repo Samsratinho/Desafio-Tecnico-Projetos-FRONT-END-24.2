@@ -18,10 +18,10 @@ Esse projeto faz parte de um desafio para a seleção de vagas de estágio na EJ
 Após a aprovação do cliente, o candidato deve alocar e coordenar uma equipe de desenvolvimento, formada por designers UX/UI e desenvolvedores front-end e back-end, para criar a solução final. No caso desse desafio, o objetivo é desenvolver tanto o front-end quanto o back-end de um site institucional para a plataforma Sabidinhos, focada em auxiliar no aprendizado de crianças. O projeto testa as habilidades dos candidatos em todas as etapas de um ciclo de desenvolvimento completo.
 
 ## Contribuições
-- Filipe Fernandes Campos: Navbar, Pais & filhos e Footer;
-- Samuel Silva de Lima: Footer e Home;
-- Maria Eduarda Lourenço: Fórum;
-- Luiz Felipe de Araújo Bezerra: Vídeos;
+- Filipe Fernandes Campos: _Navbar, Pais & filhos e Footer_;
+- Samuel Silva de Lima: _Footer e Home_;
+- Maria Eduarda Lourenço: _Fórum_;
+- Luiz Felipe de Araújo Bezerra: _Vídeos_;
 
 ## Quem nós somos
 
