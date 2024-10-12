@@ -1,0 +1,87 @@
+.banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.card1 {
+    width: 199px;
+    height: 202px;
+    margin-right: 25px;
+}
+
+.card7 {
+    width: 204px;
+    height: 200px;
+}
+
+.card1 img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: 0 90%;
+}
+
+.card7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 52.5% 0;
+}
+
+#image1 {
+    border-radius: 30px;
+}
+
+#image2 {
+    width: 199px;
+    height: 132px;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+#image3 {
+    width: 199px;
+    height: 202px;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-right: 25px;
+}
+
+#image4 {
+    width: 230px;
+    height: 442px;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-right: 25px;
+}
+
+#image5 {
+    width: 201px;
+    height: 204px;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 40px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+#image6 {
+    width: 201px;
+    height: 140px;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 35px;
+    margin-right: 25px;
+}
+
+#image7 {
+    border-radius: 35px;
+}

@@ -1,0 +1,150 @@
+.cartoes-parente {
+    margin-top: 120px;
+    width: 78rem;
+    height: 375px;
+}
+
+.cartoes-parente h2 {
+    font-weight: 600;
+    font-size: 36px;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.cartoes1 {
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.cartoes1 button {
+    border: none;
+    display: absolute;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cartoes1 h3 {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 14px;
+}
+
+#video1 {
+    background-color: #D9D9D9;
+    background-image: url('../img/banner/bluey.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    filter: blur(0.7px);
+}
+
+#video2 {
+    background-color: #D9D9D9;
+    background-image: url('../img/banner/bluey.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    filter: blur(0.7px);
+}
+
+#video3 {
+    background-color: #D9D9D9;
+    background-image: url('../img/banner/bluey.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    filter: blur(0.7px);
+}
+
+#video4 {
+    background-color: #D9D9D9;
+    background-image: url('../img/banner/bluey.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    filter: blur(0.7px);
+}
+
+#video5 {
+    background-color: #D9D9D9;
+    background-image: url('../img/banner/bluey.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    filter: blur(0.7px);
+}
+
+#video6 {
+    background-color: #D9D9D9;
+    background-image: url('../img/banner/bluey.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    filter: blur(0.7px);
+}
+
+#video7 {
+    background-color: #D9D9D9;
+    background-image: url('../img/banner/bluey.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    filter: blur(0.7px);
+}
+
+#video8 {
+    background-color: #D9D9D9;
+    background-image: url('../img/banner/bluey.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    filter: blur(0.7px);
+}
+
+#video9 {
+    background-color: #D9D9D9;
+    background-image: url('../img/banner/bluey.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    filter: blur(0.7px);
+}
+
+#video10 {
+    background-color: #D9D9D9;
+    background-image: url('../img/banner/bluey.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    filter: blur(0.7px);
+}
+
+#video11 {
+    background-color: #D9D9D9;
+    background-image: url('../img/banner/bluey.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    filter: blur(0.7px);
+}
+
+#video12 {
+    background-color: #D9D9D9;
+    background-image: url('../img/banner/bluey.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    filter: blur(0.7px);
+}
+
+#play {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 89px;
+    filter: blur(0.7px);
+}
