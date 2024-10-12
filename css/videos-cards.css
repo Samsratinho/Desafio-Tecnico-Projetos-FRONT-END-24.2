@@ -35,66 +35,74 @@
 
 #video1 {
     background-color: #D9D9D9;
+    background-image: url('../img/banner/bluey.png');
     background-position: center;
     background-size: cover;
     overflow: hidden;
+    filter: blur(0.7px);
 }
 
 #video2 {
     background-color: #D9D9D9;
+    background-image: url('../img/banner/bluey.png');
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    width: auto;
-
+    filter: blur(0.7px);
 }
 
 #video3 {
     background-color: #D9D9D9;
-    background-image: url('../img/cards/brincadeiras.png');
-    background-position-y: -7rem;
+    background-image: url('../img/banner/bluey.png');
+    background-position: center;
     background-size: cover;
     overflow: hidden;
+    filter: blur(0.7px);
 }
 
 #video4 {
     background-color: #D9D9D9;
-    background-image: url('../img/cards/portugues.png');
+    background-image: url('../img/banner/bluey.png');
     background-position: center;
     background-size: cover;
     overflow: hidden;
+    filter: blur(0.7px);
 }
 
 #video5 {
     background-color: #D9D9D9;
-    background-image: url('../img/cards/matematica.png');
+    background-image: url('../img/banner/bluey.png');
     background-position: center;
     background-size: cover;
     overflow: hidden;
+    filter: blur(0.7px);
 }
 
 #video6 {
     background-color: #D9D9D9;
-    background-image: url('../img/cards/historia.png');
+    background-image: url('../img/banner/bluey.png');
     background-position: center;
     background-size: cover;
     overflow: hidden;
+    filter: blur(0.7px);
 }
 
 #video7 {
     background-color: #D9D9D9;
-    background-image: url('../img/cards/love_to_learn.png');
+    background-image: url('../img/banner/bluey.png');
     background-position: center;
     background-size: cover;
     overflow: hidden;
+    filter: blur(0.7px);
 }
 
 #video8 {
     background-color: #D9D9D9;
-    background-image: url('../img/cards/lapis.png');
+    background-image: url('../img/banner/bluey.png');
     background-position: center;
     background-size: cover;
     overflow: hidden;
+    filter: blur(0.7px);
 }
 
 #video9 {
@@ -103,6 +111,7 @@
     background-position: center;
     background-size: cover;
     overflow: hidden;
+    filter: blur(0.7px);
 }
 
 #video10 {
@@ -111,6 +120,7 @@
     background-position: center;
     background-size: cover;
     overflow: hidden;
+    filter: blur(0.7px);
 }
 
 #video11 {
@@ -119,14 +129,16 @@
     background-position: center;
     background-size: cover;
     overflow: hidden;
+    filter: blur(0.7px);
 }
 
 #video12 {
     background-color: #D9D9D9;
+    background-image: url('../img/banner/bluey.png');
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    filter: blur(2px);
+    filter: blur(0.7px);
 }
 
 #play {
@@ -134,11 +146,5 @@
     align-items: center;
     justify-content: center;
     margin-top: 89px;
-    filter: none;
-}
-
-.background-blur {
-    background-image: url('../img/banner/bluey.png');
-    background-position: center;
-    background-size: cover;
+    filter: blur(0.7px);
 }

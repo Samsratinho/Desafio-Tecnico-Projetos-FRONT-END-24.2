@@ -12,21 +12,32 @@
     margin-right: 25px;
 }
 
+.card7 {
+    width: 204px;
+    height: 200px;
+}
+
 .card1 img {
    width: 100%;
    height: 100%;
+   object-fit: cover;
+   object-position: 0 90%;
+}
+
+.card7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 52.5% 0;
 }
 
 #image1 {
     border-radius: 30px;
-    margin-right: 25px;
 }
 
 #image2 {
     width: 199px;
     height: 132px;
-    top: 472px;
-    left: 377px;
     background-size: cover;
     object-fit: cover;
     border-radius: 30px;
@@ -37,8 +48,6 @@
 #image3 {
     width: 199px;
     height: 202px;
-    top: 629px;
-    left: 377px;
     background-size: cover;
     object-fit: cover;
     border-radius: 30px;
@@ -48,8 +57,6 @@
 #image4 {
     width: 230px;
     height: 442px;
-    top: 427px;
-    left: 601px;
     background-size: cover;
     object-fit: cover;
     border-radius: 30px;
@@ -59,8 +66,6 @@
 #image5 {
     width: 201px;
     height: 204px;
-    top: 463px;
-    left: 856px;
     background-size: cover;
     object-fit: cover;
     border-radius: 40px;
@@ -71,8 +76,6 @@
 #image6 {
     width: 201px;
     height: 140px;
-    top: 692px;
-    left: 856px;
     background-size: cover;
     object-fit: cover;
     border-radius: 35px;
@@ -80,11 +83,5 @@
 }
 
 #image7 {
-    width: 204px;
-    height: 200px;
-    top: 547px;
-    left: 1082px;
-    background-size: cover;
-    object-fit: cover;
     border-radius: 35px;
 }
