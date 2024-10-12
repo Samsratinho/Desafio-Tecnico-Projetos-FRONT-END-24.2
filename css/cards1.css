@@ -20,7 +20,7 @@
 
 .cartoes1 button {
     border: none;
-    display: relative;
+    display: absolute;
     background-color: transparent;
     cursor: pointer;
 }
@@ -44,7 +44,7 @@
     background-color: #D9D9D9;
     background-position: center;
     background-size: cover;
-    overflow: visible;
+    overflow: hidden;
     width: auto;
 
 }
@@ -123,10 +123,10 @@
 
 #video12 {
     background-color: #D9D9D9;
-    background-image: url('../img/banner/bluey.png');
     background-position: center;
     background-size: cover;
     overflow: hidden;
+    filter: blur(2px);
 }
 
 #play {
@@ -134,4 +134,11 @@
     align-items: center;
     justify-content: center;
     margin-top: 89px;
+    filter: none;
+}
+
+.background-blur {
+    background-image: url('../img/banner/bluey.png');
+    background-position: center;
+    background-size: cover;
 }
